@@ -68,7 +68,6 @@ nav {
 .search-btn:hover {
     cursor: pointer;
     background: gainsboro;
-    border: ;
     
 }
 
@@ -164,7 +163,7 @@ nav {
 
 .sign-container{
     width: 600px;
-    height: 800px;
+    height: 90%;
     border: 2px  solid gainsboro;
     border-radius: 20px;
     background-color: white;
@@ -315,25 +314,29 @@ footer div{
     .footer-text {
     font-size: 1.2rem;
     }
+    .sign-container {
+
+    }
 
     .sign-sec {
-        max-width: 300px;
+        max-width: 400px;
+        max-height: 600px;
         margin-inline: auto;
     }
 
     .sing-sec-title {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     nav {
-        padding-inline: 5px;
-        height: 25px;
+        padding-inline: 15px;
+        height: 50px;
 
     }
 
     .input-search {
-    height: 15px;
-    width: 80px;
+    height: 20px;
+    width: 200px;
     padding: 0 3px 0 2px;
     border-width: 1px;
 
@@ -342,36 +345,40 @@ footer div{
     }
 
     .search-btn {
-        height: 15px;
-        width: 15px;
-        left:0px;
+        height: 20px;
+        width: 20px;
+        left: 0px;
         
     }
 
     .nav-left{
-        gap: 20px;
+        gap: 10px;
         
     }
 
     .sign-btn{
-        height: 15px;
-        width: 50px;
+        height: 25px;
+        width: 75px;
         font-size: 8px;
     }
 
     .icon-container {
-        width: 8px;
+        width: 15px;
         
     }
 
     .icon{
         
-        width: 8px;
+        width: 15px;
     }
 
     .cart-icon {
-        width: 10px;
+        width: 17px;
 
     }
 
+    footer {
+        height: 200px;
+    }
 }
+
